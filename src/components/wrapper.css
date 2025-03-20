@@ -1,0 +1,114 @@
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+
+}
+
+
+.todo{
+    margin-top: 0;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: bold;
+    color:bisque;
+
+  
+}
+
+body {
+    background: linear-gradient(to right, #cbeb179c, #db0a7373, #22c5ee86);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #ffffff;
+}
+
+.container {
+    background: linear-gradient(to bottom, #f1d1dc , #548bcac7);
+    box-shadow: 0 4px 12px rgba(128, 36, 36, 0.5);
+    border-radius: 15px;
+    padding: 30px;
+    width: 60%;
+    max-width: 600px;
+    text-align: center;
+   
+}
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    font-size: 10px;
+    border: 2px solid #f0e4e4;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: bisque;
+    color: #ffffff;
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]:focus {
+    border: 2px solid #7399cc;
+    box-shadow: 0 0 15px rgba(202, 23, 193, 0.5);
+    outline: none;
+    color: rgba(19, 120, 151, 0.733);
+}
+
+.button-style {
+    padding: 10px 30px !important;
+    font-size: 1rem;
+    border: none !important;
+    border-radius: 10px;
+    background-color:  #6591c4c7  !important;
+    color:bisque !important;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    margin-top: 3px;
+    font-family:'Courier New', Courier, monospace !important;
+    font-weight: bold !important;
+   
+    
+}
+
+.button-style:hover {
+    background-color:#97beebc7 !important;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(238, 88, 238, 0.5) !important;
+}
+
+.todo-list {
+    margin-top: 20px;
+    text-align: left;
+    color: white;
+}
+
+.todo-item {
+    background-color: #eeb8cb ;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 2px 4px rgba(241, 59, 217, 0.5);
+}
+
+.todo-item:hover {
+    background-color: #e5f086d0;
+    transform: scale(1.02);
+}
+
+
