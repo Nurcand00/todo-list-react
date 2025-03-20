@@ -20,8 +20,6 @@ function App() {
 
   const Wrapper = styled.div`
   cursor: pointer;
-  
-
    `;
 
   const deleteTodo = (value) => {
